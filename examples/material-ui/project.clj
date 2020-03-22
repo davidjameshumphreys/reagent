@@ -1,11 +1,11 @@
 (defproject material-ui-reagent "0.6.0"
   :dependencies [[org.clojure/clojure "1.10.1"]
-                 [org.clojure/clojurescript "1.10.520"]
-                 [reagent "0.9.0-rc1"]
+                 [org.clojure/clojurescript "1.10.597"]
+                 [reagent "0.10.0"]
                  [figwheel "0.5.19"]
-                 [cljsjs/react "16.9.0-0"]
-                 [cljsjs/react-dom "16.9.0-0"]
-                 [cljsjs/material-ui "4.4.1-0"]
+                 [cljsjs/react "16.13.0-0"]
+                 [cljsjs/react-dom "16.13.0-0"]
+                 [cljsjs/material-ui "4.9.5-0"]
                  [cljsjs/material-ui-icons "4.4.1-0"]]
 
   :plugins [[lein-cljsbuild "1.1.7"]
